@@ -662,6 +662,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		filter: false,
 		countDownloads: `path:"tokenizer-e351c8d8-checkpoint125.safetensors"`,
 	},
+	mtvcraft: {
+		prettyLabel: "MTVCraft",
+		repoName: "MTVCraft",
+		repoUrl: "https://github.com/baaivision/MTVCraft",
+		filter: false,
+		countDownloads: `path:"vae/3d-vae.pt"`,
+	},
 	nemo: {
 		prettyLabel: "NeMo",
 		repoName: "NeMo",
@@ -709,6 +716,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		snippets: snippets.paddlenlp,
 		filter: true,
 		countDownloads: `path:"model_config.json"`,
+	},
+	PaddleOCR: {
+		prettyLabel: "PaddleOCR",
+		repoName: "PaddleOCR",
+		repoUrl: "https://github.com/PaddlePaddle/PaddleOCR",
+		snippets: snippets.paddleocr,
+		filter: true,
 	},
 	peft: {
 		prettyLabel: "PEFT",
